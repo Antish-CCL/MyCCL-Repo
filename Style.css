@@ -29,6 +29,22 @@ h1 img{
     50% {opacity: 0;}
 }
 */
+
+.skillup {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 0px;
+   
+}
+
+.bluecolor{
+    color: darkblue;
+}
+
+.redcolor{color: rgb(239, 8, 54)}
+.lighblue{color:darkcyan}
+
 nav
 {
 height: 40px;
@@ -61,12 +77,13 @@ nav a {
 
   .column-left h2 {
     font-size: 1.5rem;
-    color:crimson
+    color:rgb(65, 43, 113);
+    
   }
 
-  .column-left p {
-    font-size: 1rem;
-    font-weight: bold;
+  .column-left .whatweprovide {
+    font-size: 16px;
+    font-style: italic;    
     color:crimson
   }
 
