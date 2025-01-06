@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color:lightgreen;
+}
+
+.Welcome-note{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+
+h1 img{
+    max-width: 90px;
+   
+    margin-left: 10px;
+}
+    /*
+    animation: blink 3s infinite;    
+}
+@keyframes blink{
+    0%, 100%{opacity: 1;}
+    50% {opacity: 0;}
+}
+*/
+nav
+{
+height: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 1rem ;
+}
+
+nav a {
+    text-decoration: none;
+    color:blue;
+    padding: 0 1.5rem;
+}
+
+.nav-items ul{
+    margin: 2px;
+    display: none;
+    position: right;
+    list-style-type: none;
+    border: 1px solid #080707;
+    border-width: thick;
+
+}
+
+.nav-items:hover ul{
+    display:block;
+}
+
+
+  .column-left h2 {
+    font-size: 1.5rem;
+    color:crimson
+  }
+
+  .column-left p {
+    font-size: 1rem;
+    font-weight: bold;
+    color:crimson
+  }
+
+
+.Instructors h3{
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+p{font-size: 15px;}
+
+.image-container{
+    display: flex;
+    gap: 10px;
+}
+.image-container img{
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+/* for the cohort*/
+
+.cohort{
+    
+    display: flex;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;   
+  margin-left: 150px; 
+  max-height: 20px;
+  max-width: 180px;
+}
+
+ul {color: rgb(150, 78, 7)}
+
+.Items-container{
+    display: flex;
+    max-width: 400px;
+ 
+    
+
+}
+
+.programing-title {
+    
+  
+    margin-left: 20px;
+        
+}
+
+.database-title{
+
+    margin-left: 100px;
+   
+}
+
+h4{
+    margin-top: 15px;
+}
+
+.LableFormat-styles{
+    display:grid;
+    grid-gap: 10px;
+       color: blue;
+    
+
+}
+
+.radio-label{
+    color: blue;
+}
+
+.submit-button{
+    background-color:rgb(5, 194, 118);
+    color: rgb(176, 14, 14);
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: bold ;
+    font-style: italic;
+    padding: 0 2rem;
+    margin: 2rem;
+}
+
+.submit-button:hover{
+  background-color: dar
